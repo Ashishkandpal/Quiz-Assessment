@@ -30,8 +30,7 @@ const quizzes = [
     question: "Which of the following are Union Territories of India?",
     options: ["Uttarakhand", "Delhi", "Chandigarh", "Goa", "Sikkim"],
     correctAnswers: ["Delhi", "Chandigarh"],
-    answerExplain:
-      "Delhi and Jammu and Kashmir are Union Territories of India.",
+    answerExplain: "Delhi and Chandigarh are Union Territories of India.",
     key: "multiple-choice-question",
   },
   {
