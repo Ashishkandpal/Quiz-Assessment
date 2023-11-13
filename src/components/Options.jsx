@@ -22,7 +22,7 @@ function Options({
       quizz;
 
     const playSound = (isCorrect) => {
-      const soundFile = isCorrect ? "correct.mp3" : "wrong.mp3";
+      const soundFile = isCorrect ? "/correct.mp3" : "/wrong.mp3";
       const audio = new Audio(soundFile);
       setAudio(audio);
       audio.play();
