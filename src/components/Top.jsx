@@ -63,7 +63,7 @@ function Top({
       <Row className="header-box">
         <Col xs={4} sm={4}>
           <div className="cursor-ptr" onClick={handleBack}>
-            <img className="img-cls" src="public/previous.png" alt="previous" />
+            <img className="img-cls" src="/previous.png" alt="previous" />
             <span>back</span>
           </div>
         </Col>
@@ -73,7 +73,7 @@ function Top({
             onClick={handleNext}
             disabled={totalQuiz === currQuestion + 1}
           >
-            <img className="img-cls" src="public/next.png" alt="" />
+            <img className="img-cls" src="/next.png" alt="next" />
             <span>next</span>
           </div>
         </Col>
@@ -81,7 +81,7 @@ function Top({
           <div className="cursor-ptr" onClick={handleFlag}>
             <img
               className="img-cls"
-              src={isFlagged ? "public/flag-filled.png" : "public/flag.png"}
+              src={isFlagged ? "/flag-filled.png" : "/flag.png"}
               alt=""
             />
             <span>flag</span>
@@ -90,7 +90,7 @@ function Top({
 
         <Col xs={2} sm={2}>
           <div className="cursor-ptr" onClick={handleCheck}>
-            <img className="img-cls" src="public/checked.png" alt="" />
+            <img className="img-cls" src="/checked.png" alt="" />
             <span>check</span>
           </div>
         </Col>
